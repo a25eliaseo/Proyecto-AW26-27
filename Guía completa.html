@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Balatro - Guía Completa</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>BALATRO</h1>
+				<p>Balatroguía completa</p>
+			</div>
+		</header>
+
+		<div class="container">
+
+		<nav class="toc">
+			<h2>Contenidos</h2>
+			<ol>
+			<li><a href="#intro">¿Qué es Balatro?</a></li>
+			<li><a href="#como-jugar">Cómo se juega</a></li>
+			<li><a href="#manos">Manos de Poker</a></li>
+			<li><a href="#barajas">Barajas</a></li>
+			<li><a href="#challenge">Desafíos</a></li>
+			<li><a href="#Comodines">Comodines</a></li>
+			<li><a href="#consumables">Consumibles</a></li>
+			<li><a href="#tarot">Cartas Tarot</a></li>
+			<li><a href="#planet">Cartas Planeta</a></li>
+			<li><a href="#spectral">Cartas Espectrales</a></li>
+			<li><a href="#vales">Vales</a></li>
+			<li><a href="#blinds">Ciegas y apuestas</a></li>
+			<li><a href="#palos">Palos y colores</a></li>
+			<li><a href="#consejos">Consejos rápidos</a></li>
+			</ol>
+		</nav>
+
+		<!-- 1. INTRO -->
+		<section id="intro">
+			<h2>1. ¿Qué es Balatro?</h2>
+			<p><strong>Balatro</strong> es un roguelike de construcción de balatrobarajas basado en poker. Formas balatromanos de poker, consigues la mayor cantidad de balatropuntos posible y derrotas a las <em>Balatrociegas</em> de cada Balatroapuesta.</p>
+
+			<div class="card info">
+			Mejora tu balatrobaraja, compra <strong>Comodines</strong> con balatroefectos únicos y descubre balatrosinergias locas para ganar balatropartidas cada vez más difíciles.
+			</div>
+
+			<h3>Características principales</h3>
+			<ul>
+			<li>150 Comodines con efectos únicos</li>
+			<li>15 Barajas + 20 Desafíos</li>
+			<li>8 niveles de dificultad (Stakes)</li>
+			<li>Cartas mejorables (Mejoras, ediciones y sellos)</li>
+			<li>Cartas de Tarot, Planeta y Espectrales</li>
+			<li>32 Vales permanentes por run</li>
+			</ul>
+		</section>
+
+		<!-- 2. CÓMO JUGAR -->
+		<section id="como-jugar">
+			<h2>2. Cómo se juega</h2>
+			<p>Cada partida se divide en <strong>Apuestas</strong>. Cada Apuesta tiene 3 Ciegas:</p>
+			<table border="3">
+			<thead>
+				<tr>
+				<th>Ciega</th>
+				<th>Nombre</th>
+				<th>Efecto</th>
+				<th>Recompensa</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Small_Blind.webp?48d3e" width="60" style="vertical-align: middle;" alt="SmallBlind"></td>
+				<td>Ciega pequeña</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">1 Base X</span></td>
+				<td><span class="money">$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Big_Blind.webp?b2bcf" width="60" style="vertical-align: middle;" alt="BigBlind"></td>
+				<td>Ciega grande</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">1.5 Base X</span></td>
+				<td><span class="money">$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Hook.webp?ecf26" width="60" style="vertical-align: middle;" alt="TheHook"></td>
+				<td>El garfio</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Ox.webp?03985" width="60" style="vertical-align: middle;" alt="TheOx"></td>
+				<td>El buey</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_House.webp?7a45c" width="60" style="vertical-align: middle;" alt="TheHouse"></td>
+				<td>La casa</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Wall.webp?d8aa5" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El muro</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">4 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Wheel.webp?f4e16" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La rueda</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Arm.webp?ee901" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El brazo</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Club.webp?ceaeb" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El garrote</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Fish.webp?a5470" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El pez</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Psychic.webp?056d2" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El psíquico</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Goad.webp?db06c" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La provocación</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Water.webp?27111" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El agua</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Window.webp?01edd" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La ventana</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Manacle.webp?54bd7" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El grillete</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Eye.webp?fc8e6" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El ojo</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Mouth.webp?7f1c5" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La boca</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Plant.webp?7fa21" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La planta</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Serpent.webp?1a62d" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La serpiente</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Pillar.webp?c9d00" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El pilar</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Needle.webp?0d78d" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La aguja</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">1 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Head.webp?9eb39" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La cabeza</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Tooth.webp?94960" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El deinte</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Flint.webp?c3601" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>El pedernal</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/The_Mark.webp?ca9fa" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>La marca</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Amber_Acorn.webp?3ffae" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>Bellota ambarina</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Verdant_Leaf.webp?4edfc" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>Hoja verde</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Violet_Vessel.webp?f00c5" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>Contenedor violeta</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">6 Base X</span></td>
+				<td><span class="money">$$$$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Crimson_Heart.webp?b0f83" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>Corazón carmesí</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$$$$</span></td>
+				</tr>
+				<tr>
+				<td><img src="https://balatrowiki.org/images/Cerulean_Bell.webp?3e5de" width="60" style="vertical-align: middle;" alt=""></td>
+				<td>Campana cerúlea</td>
+				<td>Anota al menos <img src="https://balatrowiki.org/images/White_stake.png?eacdc" width="20" style="vertical-align: middle;" alt="whitestake"> <span class="mult">2 Base X</span></td>
+				<td><span class="money">$$$$$$$$</span></td>
+				</tr>
+			</tbody>
+			</table>
+			<p>Después de derrotar una ciega vas a la tienda a comprar Comodines, cartas, packs y vales.</p>
+
+			<div class="card tip">
+			<strong>Objetivo:</strong> Derrotar el Ciega jefe de la Apuesta 8. Luego puedes seguir jugando Apuestas infinitas.
+			</div>
+		</section>
+
+		<!-- 3. MANOS DE POKER -->
+		<section id="manos">
+			<h2>3. Manos de Poker</h2>
+			<p>Las manos de poker son la base de la puntuación. Cada una tiene una puntuación base de <span class="chips">Fichas</span> × <span class="mult">Multi</span>.</p>
+
+			<table border="3">
+			<thead>
+				<tr>
+				<th>Ejemplo</th>
+				<th>Mano</th>
+				<th>Nivel</th>
+				<th>Puntuación base</th>
+				<th>Cómo se forma</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Queen_of_Diamonds.png/40px-Queen_of_Diamonds.png?d0e33" width="50" alt="Queen_of_Diamonds"><img src="https://balatrowiki.org/images/thumb/9_of_Diamonds.png/40px-9_of_Diamonds.png?d0e33" width="50" alt="9_of_Diamonds"><img src="https://balatrowiki.org/images/thumb/4_of_Clubs.png/40px-4_of_Clubs.png?d0e33" width="50" alt="4_of_Clubs"><img src="https://balatrowiki.org/images/thumb/3_of_Diamonds.png/40px-3_of_Diamonds.png?d0e33" width="50" alt="3_of_Diamonds"></td><td>Carta más alta</td><td>Lvl. 1</td><td><span class="chips">5</span> × <span class="mult">1</span></td><td>La carta más alta cuando no hay otra mano</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/9_of_Diamonds.png/40px-9_of_Diamonds.png?d0e33" width="50" alt="9_of_Diamonds"><img src="https://balatrowiki.org/images/thumb/6_of_Hearts.png/40px-6_of_Hearts.png?d0e33" width="50" alt="6_of_Hearts"><img src="https://balatrowiki.org/images/thumb/3_of_Diamonds.png/40px-3_of_Diamonds.png?d0e33" width="50" alt="3_of_Diamonds"></td><td>Pareja</td><td>Lvl. 1</td><td><span class="chips">10</span> × <span class="mult">2</span></td><td>Dos cartas del mismo rango</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="60" alt="King_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Hearts.png/75px-King_of_Hearts.png?d0e33" width="60" alt="King_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Queen_of_Clubs.png/75px-Queen_of_Clubs.png?d0e33" width="50" alt="Queen_of_Clubs"></td><td>Doble pareja</td><td>Lvl. 1</td><td><span class="chips">20</span> × <span class="mult">2</span></td><td>Dos pares diferentes</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Ace_of_Clubs.png/75px-Ace_of_Clubs.png?d0e33" width="60" alt="Ace_of_Clubs"><img src="https://balatrowiki.org/images/thumb/6_of_Hearts.png/40px-6_of_Hearts.png?d0e33" width="50" alt="6_of_Hearts"><img src="https://balatrowiki.org/images/thumb/2_of_Diamonds.png/40px-2_of_Diamonds.png?d0e33" width="50" alt="2_of_Diamonds"></td><td>Trío</td><td>Lvl. 1</td><td><span class="chips">30</span> × <span class="mult">3</span></td><td>Tres cartas del mismo rango</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Hearts.png/75px-King_of_Hearts.png?d0e33" width="60" alt="King_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Queen_of_Clubs.png/75px-Queen_of_Clubs.png?d0e33" width="60" alt="Queen_of_Clubs"><img src="https://balatrowiki.org/images/thumb/Jack_of_Diamonds.png/75px-Jack_of_Diamonds.png?d0e33" width="60" alt="Jack_of_Diamonds"><img src="https://balatrowiki.org/images/thumb/10_of_Spades.png/75px-10_of_Spades.png?d0e33" width="60" alt="10_of_Spades"></td><td>Escalera</td><td>Lvl. 1</td><td><span class="chips">30</span> × <span class="mult">4</span></td><td>Cinco cartas consecutivas</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Queen_of_Spades.png/75px-Queen_of_Spades.png?d0e33" width="60" alt="Queen_of_Spades"><img src="https://balatrowiki.org/images/thumb/Jack_of_Spades.png/75px-Jack_of_Spades.png?d0e33" width="60" alt="Jack_of_Spades"><img src="https://balatrowiki.org/images/thumb/10_of_Spades.png/75px-10_of_Spades.png?d0e33" width="60" alt="10_of_Spades"><img src="https://balatrowiki.org/images/thumb/9_of_Spades.png/75px-9_of_Spades.png?d0e33" width="60" alt="9_of_Spades"></td><td>Color</td><td>Lvl. 1</td><td><span class="chips">35</span> × <span class="mult">4</span></td><td>Cinco cartas del mismo palo</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Ace_of_Clubs.png/75px-Ace_of_Clubs.png?d0e33" width="60" alt="Ace_of_Clubs"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="60" alt="King_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Hearts.png/75px-King_of_Hearts.png?d0e33" width="60" alt="King_of_Hearts"></td><td>Full</td><td>Lvl. 1</td><td><span class="chips">40</span> × <span class="mult">4</span></td><td>Trío + Par</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Ace_of_Clubs.png/75px-Ace_of_Clubs.png?d0e33" width="60" alt="Ace_of_Clubs"><img src="https://balatrowiki.org/images/thumb/Ace_of_Diamonds.png/75px-Ace_of_Diamonds.png?d0e33" width="60" alt="Ace_of_Diamonds"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="50" alt="King_of_Spades"></td><td>Poker</td><td>Lvl. 1</td><td><span class="chips">60</span> × <span class="mult">7</span></td><td>Cuatro cartas del mismo rango</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Queen_of_Spades.png/75px-Queen_of_Spades.png?d0e33" width="60" alt="Queen_of_Spades"><img src="https://balatrowiki.org/images/thumb/Jack_of_Spades.png/75px-Jack_of_Spades.png?d0e33" width="60" alt="Jack_of_Spades"><img src="https://balatrowiki.org/images/thumb/10_of_Spades.png/75px-10_of_Spades.png?d0e33" width="60" alt="10_of_Spades"><img src="https://balatrowiki.org/images/thumb/9_of_Spades.png/75px-9_of_Spades.png?d0e33" width="60" alt="9_of_Spades"><img src="https://balatrowiki.org/images/thumb/8_of_Spades.png/75px-8_of_Spades.png?d0e33" width="60" alt="8_of_Spades"></td><td>Escalera de color</td><td>Lvl. 1</td><td><span class="chips">100</span> × <span class="mult">8</span></td><td>Escalera del mismo palo</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="60" alt="King_of_Spades"><img src="https://balatrowiki.org/images/thumb/Queen_of_Spades.png/75px-Queen_of_Spades.png?d0e33" width="60" alt="Queen_of_Spades"><img src="https://balatrowiki.org/images/thumb/Jack_of_Spades.png/75px-Jack_of_Spades.png?d0e33" width="60" alt="Jack_of_Spades"><img src="https://balatrowiki.org/images/thumb/10_of_Spades.png/75px-10_of_Spades.png?d0e33" width="60" alt="10_of_Spades"></td><td>Escalera real</td><td>Lvl. 1</td><td><span class="chips">100</span> × <span class="mult">8</span></td><td>A-K-Q-J-10 del mismo palo</td></tr>
+			</tbody>
+			</table>
+
+			<h3>Manos secretas</h3>
+
+			<table border="3">
+			<thead>
+				<tr>
+				<th>Ejemplo</th>
+				<th>Mano</th>
+				<th>Nivel</th>
+				<th>Puntuación base</th>
+				<th>Cómo se forma</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Hearts.png/75px-Ace_of_Hearts.png?d0e33" width="60" alt="Ace_of_Hearts"><img src="https://balatrowiki.org/images/thumb/Ace_of_Clubs.png/75px-Ace_of_Clubs.png?d0e33" width="60" alt="Ace_of_Clubs"><img src="https://balatrowiki.org/images/thumb/Ace_of_Diamonds.png/75px-Ace_of_Diamonds.png?d0e33" width="60" alt="Ace_of_Diamonds"></td><td>Repóker</td><td>Lvl. 1</td><td><span class="chips">120</span> x <span class="mult">12</span></td><td>Cinco cartas del mismo rango que no son todas del mismo palo.</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="60" alt="King_of_Spades"><img src="https://balatrowiki.org/images/thumb/King_of_Spades.png/75px-King_of_Spades.png?d0e33" width="60" alt="King_of_Spades"></td><td>Full de color</td><td>Lvl. 1</td><td><span class="chips">140</span> x <span class="mult">14</span></td><td>Tres cartas del mismo rango y dos cartas del mismo rango, todas de un solo palo.</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"><img src="https://balatrowiki.org/images/thumb/Ace_of_Spades.png/75px-Ace_of_Spades.png?d0e33" width="60" alt="Ace_of_Spades"></td><td>Cinco de color</td><td>Lvl.1</td><td><span class="chips">160</span> x <span class="mult">16</span></td><td>Cinco cartas del mismo rango y mismo palo.</td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 4. BARAJAS -->
+		<section id="barajas">
+			<h2>4. Barajas</h2>
+			<p>Hay 15 Barajas principales. Cada uno cambia las reglas de la run.</p>
+
+			<table border="3">
+			<thead>
+				<tr>
+				<th>Imágen</th>
+				<th>Baraja</th>
+				<th>Efecto</th>
+				<th>Desbloqueo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Red_Deck.png/90px-Red_Deck.png?b56d3" width="100" alt="barajaroja"></td><td><strong>Baraja roja</strong></td><td><span class="mult">+1</span> descarte en cada ronda</td><td>Desde el inicio</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Holographic_plain.png/89px-Holographic_plain.png?cb96a" width="100" alt="barajaroja"></td><td><strong>Baraja azul</strong></td><td><span class="chips">+1</span> mano en cada ronda</td><td>Descubrir 20 ítems</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Yellow_Deck.png/90px-Yellow_Deck.png?9cdee" width="100" alt="barajaroja"></td><td><strong>Baraja amarilla</strong></td><td>Comienza con <span class="money">+$10 extra</span></td><td>Descubrir 50 ítems</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Green_Deck.png/90px-Green_Deck.png?5f8ea" width="100" alt="barajaroja"></td><td><strong>Baraja verde</strong></td><td>Al final de cada ronda: <span class="money">$2</span> por <span class="chips">mano restante</span> + <span class="money">$1</span> por <span class="mult">descarte restante</span> (sin <span class="keyword">interés</span>)</td><td>Descubrir 75 ítems</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Black_Deck.png/90px-Black_Deck.png?0e79f" width="100" alt="barajaroja"></td><td><strong>Baraja negra</strong></td><td><span class="money">+1</span> ranura[s] de Comodín, <span class="chips">-1</span> mano en cada ronda</td><td>Descubrir 100 ítems</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Magic_Deck.png/90px-Magic_Deck.png?e8151" width="100" alt="barajaroja"></td><td><strong>Baraja mágica</strong></td><td>Comienza la partida con el vale <span class="card-name">Bola de cristal</span> y <span class="money">2</span> copias de <span class="card-name">El Loco</span></td><td>Ganar con Red Deck</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Nebula_Deck.png/90px-Nebula_Deck.png?38113" width="100" alt="barajaroja"></td><td><strong>Baraja nébula</strong></td><td>Comienza la partida con el vale <span class="planet">Telescopio</span>, <span class="mult">-1</span> ranura de consumible</td><td>Ganar con Blue Deck</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Ghost_Deck.png/90px-Ghost_Deck.png?4aae9" width="100" alt="barajaroja">/td><td><strong>Baraja fantasma</strong></td><td>Las cartas <span class="spectral">espectrales</span> pueden aparecer en la tienda, comienza con una carta <span class="spectral">maleficio</span></td><td>Ganar con Yellow Deck</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Abandoned_Deck.png/90px-Abandoned_Deck.png?e6d1d" width="100" alt="barajaroja"></td><td><strong>Baraja abandonada</strong></td><td>Comienza la partida sin ninguna carta de <span class="keyword">figura</span> en tu baraja</td><td>Ganar con Green Deck</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Checkered_Deck.png/90px-Checkered_Deck.png?dd851" width="100" alt="barajaroja"></td><td><strong>Baraja cuadriculada</strong></td><td>Comienza la partida con <span class="keyword">26</span> <span class="suit-pica">picas</span> + <span class="keyword">26</span> <span class="suit-corazon">corazones</span> en la baraja</td><td>Ganar con Black Deck</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Zodiac_Deck.png/90px-Zodiac_Deck.png?c64d8" width="100" alt="barajaroja"></td><td><strong>Baraja del zodiaco</strong></td><td>Comienza la partida con <span class="card-name">Mercader de tarot</span>, <span class="planet">Mercader de planetas</span> y <span class="keyword">Excedente</span></td><td>Red Stake o superior</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Painted_Deck.png/90px-Painted_Deck.png?5fdce" width="100" alt="barajaroja"></td><td><strong>Baraja pintada</strong></td><td><span class="keyword">+2</span> tamaño de mano, <span class="mult">-1</span> ranura de comodín</td><td>Green Stake o superior</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Anaglyph_Deck.png/90px-Anaglyph_Deck.png?97cb8" width="100" alt="barajaroja"></td><td><strong>Baraja anaglifo</strong></td><td>Después de derrotar a cada <span class="keyword">ciega jefe</span>, gana 1 <span class="keyword">Etiqueta doble</span></td><td>Black Stake o superior</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Plasma_Deck.png/90px-Plasma_Deck.png?a56b6" width="100" alt="barajaroja"></td><td><strong>Baraja plasmática</strong></td><td>Equilibra las <span class="chips">fichas</span> y el <span class="mult">multi</span> cuando calcula los puntos de cada mano jugada <span class="mult">X2</span> tamaño de ciegas base</td><td>Blue Stake o superior</td></tr>
+				<tr><td><img src="https://balatrowiki.org/images/thumb/Erratic_Deck.png/90px-Erratic_Deck.png?171f6" width="100" alt="barajaroja"></td><td><strong>Baraja errático</strong></td><td>Todos los <span class="keyword">valores</span> y <span class="keyword">palos</span> de la baraja se distribuyen al azar</td><td>Orange Stake o superior</td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 5. DESAFÍOS -->
+		<section id="challenge">
+			<h2>5. Desafíos</h2>
+			<p>Hay 20 desafíos. Solo se juegan en <strong>Modo desafío</strong> y tienen reglas especiales.</p>
+			<div class="card info">
+			Los primeros 5 se desbloquean al ganar con 5 barajas diferentes. Los siguientes se desbloquean ganando otros desafíos.
+			</div>
+			<ul>
+			<li>
+				<h3><strong>La tortilla</strong></h3>
+				<ul>
+				<li><strong>Comodines:</strong></li>
+				<ul>
+					<li>
+					<img src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo"> 
+					<img src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					<img src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					<img src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					<img src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					</li>
+				</ul>
+				<li><strong>Reglas:</strong></li>
+				<ul>
+					<li><strong>Reglas personalizadas:</strong> Ninguna <span class="keyword">ciega</span> otorga dinero de recompensa. Las <span class="chips">manos</span> extra no ganan dinero. No ganas <span class="keyword">interés</span> al final de la ronda.</li>
+					<li><strong>Modificadores de juego:</strong>
+					<ul>
+						<li>4 manos por ronda</li>
+						<li><span class="mult">3</span> descartes por ronda</li>
+						<li>Sujeta <span class="keyword">8</span> cartas en la mano</li>
+						<li><span class="keyword">5 ranuras</span> de comodín</li>
+						<li><span class="keyword">2</span> ranuras de comnsumibles</li>
+						<li>Empieza con <span class="money">$4</span></li>
+					</ul>
+					</li>
+				</ul>
+				<li><strong>Restricciones:</strong></li>
+				<ul>
+					<li><strong>Cartas prohibidas:</strong></li>
+					<ul>
+						<img src="https://balatrowiki.org/images/thumb/Seed_Money.png/80px-Seed_Money.png?40dc6" width="100" style="vertical-align: middle; margin-left: 8px;" alt="CapInical">
+						<img src="https://balatrowiki.org/images/thumb/Money_Tree.png/80px-Money_Tree.png?40dc6" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Treemoney">
+						<img src="https://balatrowiki.org/images/thumb/To_the_Moon.png/80px-To_the_Moon.png?8a903" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Hastalaluna">
+						<img src="https://balatrowiki.org/images/thumb/Rocket.png/80px-Rocket.png?5465a" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Cohete">
+						<img src="https://balatrowiki.org/images/thumb/Golden_Joker.png/80px-Golden_Joker.png?55a9b" width="100" style="vertical-align: middle; margin-left: 8px;" alt="GoldenJoker">
+						<img src="https://balatrowiki.org/images/thumb/Satellite.png/80px-Satellite.png?20821" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Satelite">
+					</li>
+					</ul>
+				</ul>
+				</ul>
+			</li>
+			<li>
+				<h3><strong>Ciudad de 15 minutos</strong></h3>
+				<ul>
+				<li><strong>Comodines:</strong></li>
+				<ul>
+					<li>
+					<img src="https://balatrowiki.org/images/thumb/Ride_the_Bus.png/80px-Ride_the_Bus.png?1c42b" width="100" style="vertical-align: middle; margin-left: 8px;" alt="bus">
+					<img src="https://balatrowiki.org/images/thumb/Shortcut.png/80px-Shortcut.png?e6a46" width="100" style="vertical-align: middle; margin-left: 8px;" alt="shorcut">
+					</li>
+				</ul>
+				<li><strong>Reglas:</strong></li>
+				<ul>
+					<li><strong>Modificadores de juego:</strong>
+					<ul>
+						<li><span class="chips">4</span> manos por ronda</li>
+						<li><span class="mult">3</span> descartes por ronda</li>
+						<li>Sujeta <span class="keyword">8</span> cartas en la mano</li>
+						<li><span class="keyword">5 ranuras</span> de comodín</li>
+						<li><span class="keyword">2</span> ranuras de comnsumibles</li>
+						<li>Empieza con <span class="money">$4</span></li>
+					</ul>
+					</li>
+				</ul>
+				</ul>
+			</li>
+			<li>
+				<h3><strong>Asquerosamente rico</strong></h3>
+				<ul>
+				<li><strong>Vales:</strong></li>
+				<ul>
+					<li>
+					<img src="Seed_Money.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo"> 
+					<img src="Money_Tree.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					</li>
+				</ul>
+				<li><strong>Reglas:</strong></li>
+				<ul>
+					<li><strong>Reglas personalizadas:</strong> Las <span class="chips">fichas</span> no pueden superar <span class="money">$</span></li>
+					<li><strong>Modificadores de juego:</strong>
+					<ul>
+						<li>Empieza con <span class="money">$100</span></li>
+						<li><span class="mult">3</span> descartes por ronda</li>
+						<li>Sujeta <span class="keyword">8</span> cartas en la mano</li>
+						<li><span class="keyword">5 ranuras</span> de comodín</li>
+						<li><span class="keyword">2</span> ranuras de comnsumibles</li>
+						<li>Empieza con <span class="money">$4</span></li>
+					</ul>
+					</li>
+				</ul>
+				</ul>
+			</li>
+			<li>
+				<h3><strong>Al filo de la navaja</strong></h3>
+				<ul>
+				<li><strong>Comodines:</strong></li>
+				<ul>
+					<li>
+					<img src="Ceremonial_Dagger.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Huevo">
+					</li>
+				</ul>
+				<li><strong>Reglas:</strong></li>
+				<ul>
+					<li><strong>Modificadores de juego:</strong>
+					<ul>
+						<li><span class="chips">4</span> manos por ronda</li>
+						<li><span class="mult">3</span> descartes por ronda</li>
+						<li>Sujeta <span class="keyword">8</span> cartas en la mano</li>
+						<li><span class="keyword">5 ranuras</span> de comodín</li>
+						<li><span class="keyword">2</span> ranuras de comnsumibles</li>
+						<li>Empieza con <span class="money">$4</span></li>
+					</ul>
+					</li>
+				</ul>
+				</ul>
+			</li>
+			<li>
+				<h3><strong>Visión de rayos X</strong></h3>
+				<ul>
+				<li><strong>Reglas:</strong></li>
+				<ul>
+					<li><strong>Reglas personalizadas:</strong><span class="probability">1 en 4</span> cartas se sacan boca abajo</li>
+					<li><strong>Modificadores de juego:</strong>
+					<ul>
+						<li><span class="chips">4</span> manos por ronda</li>
+						<li><span class="mult">3</span> descartes por ronda</li>
+						<li>Sujeta <span class="keyword">8</span> cartas en la mano</li>
+						<li><span class="keyword">5 ranuras</span> de comodín</li>
+						<li><span class="keyword">2</span> ranuras de comnsumibles</li>
+						<li>Empieza con <span class="money">$4</span></li>
+					</ul>
+					</li>
+				</ul>
+				<li><strong>Restricciones:</strong></li>
+				<ul>
+					<li><strong>Cartas prohibidas:</strong></li>
+					<ul>
+					<li>  
+						<img src="Seed_Money.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="CapInical">
+						<img src="Money_Tree.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Treemoney">
+						<img src="To_the_Moon.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Hastalaluna">
+						<img src="Rocket.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Cohete">
+						<img src="Golden_Joker.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="GoldenJoker">
+						<img src="Satellite.png" width="100" style="vertical-align: middle; margin-left: 8px;" alt="Satelite">
+					</li>
+					</ul>
+				</ul>
+				</ul>
+			</li>
+			</ul>
+		</section>
+
+		<!-- 6. Comodines -->
+		<section id="Comodines">
+			<h2>6. Comodines</h2>
+			<p>Los <strong>Comodines</strong> son el corazón de Balatro. Se compran en la tienda y permanecen en tus ranuras.</p>
+			<ul>
+			<li>Empiezas con <strong>5 ranuras</strong> (algunos barajas lo cambian).</li>
+			<li>150 Comodines en total (105 desbloqueados desde el inicio).</li>
+			<li>Editions: Base, Foil (<span class="chips">+50 Chips</span>), Holographic (<span class="mult">+10 Mult</span>), Polychrome (<span class="mult">×1.5 Mult</span>), Negative (+1 ranura).</li>
+			</ul>
+			<div class="card tip">
+			Las mejores runs se construyen alrededor de sinergias potentes entre 3-5 Comodines.
+			</div>
+
+			<h3>Tabla de Comodines</h3>
+			<table border="3">
+			<thead>
+				<tr>
+				<th>Imágenes</th>
+				<th>Nombre</th>
+				<th>Efecto</th>
+				<th>Precio</th>
+				<th>Rareza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Joker.png" alt="Comodín"></td>
+				<td><strong>Comodín</strong></td>
+				<td><span class="mult">+4</span> multi</td>
+				<td><span class="money">$2</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Greedy_Joker.png" alt="Greedy Comodín"></td>
+				<td><strong>Comodín codicioso</strong></td>
+				<td><span class="mult">+3</span> multi por cada carta jugada con el palo de <span class="suit-diamante">Diamante</span> cuando anota</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Lusty_Joker.png" alt="Lusty Comodín"></td>
+				<td><strong>Comodín lujurioso</strong></td>
+				<td><span class="mult">+3</span> multi por cada carta jugada con el palo de <span class="suit-corazon">Crazón</span> cuando anota</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Wrathful_Joker.png" alt="Wrathful Comodín"></td>
+				<td><strong>Comodín irascible</strong></td>
+				<td><span class="mult">+3</span> multi por cada carta jugada con el palo de <span class="suit-pica">Pica</span> cuando anota</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Gluttonous_Joker.png" alt="Gluttonous Comodín"></td>
+				<td><strong>Comodín glotón</strong></td>
+				<td><span class="mult">+3</span> multi por cada jugada con el palo de <span class="suit-trebol">Trébol</span> cuando anota</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Jolly_Joker.png" alt="Jolly Comodín"></td>
+				<td><strong>Comodín contento</strong></td>
+				<td><span class="mult">+8</span> multi si la mano contiene 1 <span class="keyword">Pareja</span></td>
+				<td><span class="money">$3</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Zany_Joker.png" alt="Zany Comodín"></td>
+				<td><strong>Comodín chiflado</strong></td>
+				<td><span class="mult">+12</span> multi si la mano contiene 1 <span class="keyword">Trío</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Mad_Joker.png" alt="Mad Comodín"></td>
+				<td><strong>Comodín demente</strong></td>
+				<td><span class="mult">+10</span> multi si la mano contiene 1 <span class="keyword">Doble Pareja</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Madness.png" alt="Crazy Comodín"></td>
+				<td><strong>Comodín loco</strong></td>
+				<td><span class="mult">+12</span> multi si al mano contiene 1 <span class="keyword">Escalera</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Droll_Joker.png" alt="Droll Comodín"></td>
+				<td><strong>Comodín gracioso</strong></td>
+				<td><span class="mult">+10</span> multi si la mano contiene 1 <span class="keyword">Color</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Sly_Joker.png" alt="Sly Comodín"></td>
+				<td><strong>Comodín artero</strong></td>
+				<td><span class="chips">+50</span> fichas si la mano jugada contiene 1 <span class="keyword">Pareja</span></td>
+				<td><span class="money">$3</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Wily_Joker.png" alt="Wily Comodín"></td>
+				<td><strong>Comodín taimado</strong></td>
+				<td><span class="chips">+100</span> fichas si la mano jugada contiene 1 <span class="keyword">Trío</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Clever_Joker.png" alt="Clever Comodín"></td>
+				<td><strong>Comodín astuto</strong></td>
+				<td><span class="chips">+80</span> fichas si la mano jugada contiene 1 <span class="keyword">Doble pareja</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Devious_Joker.png" alt="Devious Comodín"></td>
+				<td><strong>Comodín ladino</strong></td>
+				<td><span class="chips">+100</span> fichas si la mano jugada contiene 1 <span class="keyword">Escalera</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Crafty_Joker.png" alt="Crafty Comodín"></td>
+				<td><strong>Comodín mañoso</strong></td>
+				<td><span class="chips">+80</span> fichas si la mano jugada contiene 1 <span class="keyword">Color</span></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Half_Joker.png" alt="Half Comodín"></td>
+				<td><strong>Medio comodín</strong></td>
+				<td><span class="mult">+20</span> multi si la mano contiene <span class="keyword">3</span> o menos cartas</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Joker_Stencil.png" alt="Comodín Stencil"></td>
+				<td><strong>Plantilla de comodín</strong></td>
+				<td><span class="x1">X1</span> multi por cada ranura de <span class="keyword">comodín</span> vacía. Plantilla de comodín incluida [Actual <span class="x1">X1</span>]</td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Four_Fingers.png" alt="Four Fingers"></td>
+				<td><strong>Cuatro dedos</strong></td>
+				<td>Los <span class="keyword">colores</span> y las <span class="keyword">escaleras</span> pueden hacerse con <span class="keyword">4</span> cartas</td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Mime.png" alt="Mime"></td>
+				<td><strong>Mimo</strong></td>
+				<td>Reactiva todas las habilidades de las cartas <span class="keyword">en la mano</span></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Credit_Card.png" alt="Credit Card"></td>
+				<td><strong>Tarjeta de crédito</strong></td>
+				<td>Adquiere hasta <span class="mult">-$20</span> de deuda</td>
+				<td><span class="money">$1</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Ceremonial_Dagger.png" alt="Ceremonial Dagger"></td>
+				<td><strong>Daga ceremonial</strong></td>
+				<td>Cuando se selecciona la <span class="keyword">ciega</span>, destruye al comodín de la derecha y agrega para siempre el <span class="keyword">doble</span> de valor de venta a este <span class="mult">multi</span> [Actual <span class="mult">+0</span> multi]</td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Banner.png" alt="Banner"></td>
+				<td><strong>Estandarte</strong></td>
+				<td><span class="chips">+30</span> fichas por cada <span class="keyword">descarte restante</span></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Mystic_Summit.png" alt="Mystic Summit"></td>
+				<td><strong>Cumbre mística</strong></td>
+				<td><span class="mult">+15</span> multi cuando hay <span class="keyword">+0</span> descartes restantes</td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Marble_Joker.png" alt="Marble Comodín"></td>
+				<td><strong>Comodín de mármol</strong></td>
+				<td>Agrega una carta de <span class="keyword">piedra</span> a tu baraja al seleccionar la <span class="keyword">ciega</span></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Loyalty_Card.png" alt="Loyalty Card"></td>
+				<td><strong>Loyalty Card</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="8_Ball.png" alt="8 Ball"></td>
+				<td><strong>8 Ball</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Misprint.png" alt="Misprint"></td>
+				<td><strong>Misprint</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Dusk.png" alt="Dusk"></td>
+				<td><strong>Dusk</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Raised_Fist.png" alt="Raised Fist"></td>
+				<td><strong>Raised Fist</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Chaos_the_Clown.png" alt="Chaos the Clown"></td>
+				<td><strong>Chaos the Clown</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Fibonacci.png" alt="Fibonacci"></td>
+				<td><strong>Fibonacci</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Steel_Joker.png" alt="Steel Comodín"></td>
+				<td><strong>Steel Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Scary_Face.png" alt="Scary Face"></td>
+				<td><strong>Scary Face</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Abstract_Joker.png" alt="Abstract Comodín"></td>
+				<td><strong>Abstract Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Delayed_Gratification.png" alt="Delayed Gratification"></td>
+				<td><strong>Delayed Gratification</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hack.png" alt="Hack"></td>
+				<td><strong>Hack</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Pareidolia.png" alt="Pareidolia"></td>
+				<td><strong>Pareidolia</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Gros_Michel.png" alt="Gros Michel"></td>
+				<td><strong>Gros Michel</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Even_Steven.png" alt="Even Steven"></td>
+				<td><strong>Even Steven</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Odd_Todd.png" alt="Odd Todd"></td>
+				<td><strong>Odd Todd</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Scholar.png" alt="Scholar"></td>
+				<td><strong>Scholar</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Business_Card.png" alt="Business Card"></td>
+				<td><strong>Business Card</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Supernova.png" alt="Supernova"></td>
+				<td><strong>Supernova</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Ride_the_Bus.png" alt="Ride the Bus"></td>
+				<td><strong>Ride the Bus</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Space_Joker.png" alt="Space Comodín"></td>
+				<td><strong>Space Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="https://balatrowiki.org/images/thumb/Egg.png/90px-Egg.png?a944d" alt="Egg"></td>
+				<td><strong>Egg</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Burglar.png" alt="Burglar"></td>
+				<td><strong>Burglar</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Blackboard.png" alt="Blackboard"></td>
+				<td><strong>Blackboard</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Runner.png" alt="Runner"></td>
+				<td><strong>Runner</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Ice_Cream.png" alt="Ice Cream"></td>
+				<td><strong>Ice Cream</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="DNA.png" alt="DNA"></td>
+				<td><strong>DNA</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Splash.png" alt="Splash"></td>
+				<td><strong>Splash</strong></td>
+				<td></td>
+				<td><span class="money">$3</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Blue_Joker.png" alt="Blue Comodín"></td>
+				<td><strong>Blue Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Sixth_Sense.png" alt="Sixth Sense"></td>
+				<td><strong>Sixth Sense</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Constellation.png" alt="Constellation"></td>
+				<td><strong>Constellation</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hiker.png" alt="Hiker"></td>
+				<td><strong>Hiker</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Faceless_Joker.png" alt="Faceless Comodín"></td>
+				<td><strong>Faceless Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Green_Joker.png" alt="Green Comodín"></td>
+				<td><strong>Green Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Superposition.png" alt="Superposition"></td>
+				<td><strong>Superposition</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="To_Do_List.png" alt="To Do List"></td>
+				<td><strong>To Do List</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Cavendish.png" alt="Cavendish"></td>
+				<td><strong>Cavendish</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Card_Sharp.png" alt="Card Sharp"></td>
+				<td><strong>Card Sharp</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Red_Card.png" alt="Red Card"></td>
+				<td><strong>Red Card</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Crazy_Joker.png" alt="Madness"></td>
+				<td><strong>Madness</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Square_Joker.png" alt="Square Comodín"></td>
+				<td><strong>Square Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Séance.png" alt="Séance"></td>
+				<td><strong>Séance</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Riff-Raff.png" alt="Riff-Raff"></td>
+				<td><strong>Riff-Raff</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Vampire.png" alt="Vampire"></td>
+				<td><strong>Vampire</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Shortcut.png" alt="Shortcut"></td>
+				<td><strong>Shortcut</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hologram.gif" alt="Hologram"></td>
+				<td><strong>Hologram</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Vagabond.png" alt="Vagabond"></td>
+				<td><strong>Vagabond</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Baron.png" alt="Baron"></td>
+				<td><strong>Baron</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Cloud_9.png" alt="Cloud 9"></td>
+				<td><strong>Cloud 9</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Rocket.png" alt="Rocket"></td>
+				<td><strong>Rocket</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Obelisk.png" alt="Obelisk"></td>
+				<td><strong>Obelisk</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Midas_Mask.png" alt="Midas Mask"></td>
+				<td><strong>Midas Mask</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Luchador.png" alt="Luchador"></td>
+				<td><strong>Luchador</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Photograph.png" alt="Photograph"></td>
+				<td><strong>Photograph</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Gift_Card.png" alt="Gift Card"></td>
+				<td><strong>Gift Card</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Turtle_Bean.png" alt="Turtle Bean"></td>
+				<td><strong>Turtle Bean</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Erosion.png" alt="Erosion"></td>
+				<td><strong>Erosion</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Reserved_Parking.png" alt="Reserved Parking"></td>
+				<td><strong>Reserved Parking</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Mail-In_Rebate.png" alt="Mail-In Rebate"></td>
+				<td><strong>Mail-In Rebate</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="To_the_Moon.png" alt="To the Moon"></td>
+				<td><strong>To the Moon</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hallucination.png" alt="Hallucination"></td>
+				<td><strong>Hallucination</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Fortune_Teller.png" alt="Fortune Teller"></td>
+				<td><strong>Fortune Teller</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Juggler.png" alt="Juggler"></td>
+				<td><strong>Juggler</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Drunkard.png" alt="Drunkard"></td>
+				<td><strong>Drunkard</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Stone_Joker.png" alt="Stone Comodín"></td>
+				<td><strong>Stone Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Golden_Joker.png" alt="Golden Comodín"></td>
+				<td><strong>Golden Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Lucky_Cat.png" alt="Lucky Cat"></td>
+				<td><strong>Lucky Cat</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Baseball_Card.png" alt="Baseball Card"></td>
+				<td><strong>Baseball Card</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Bull.png" alt="Bull"></td>
+				<td><strong>Bull</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Diet_Cola.png" alt="Diet Cola"></td>
+				<td><strong>Diet Cola</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Trading_Card.png" alt="Trading Card"></td>
+				<td><strong>Trading Card</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Flash_Card.png" alt="Flash Card"></td>
+				<td><strong>Flash Card</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Popcorn.png" alt="Popcorn"></td>
+				<td><strong>Popcorn</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Spare_Trousers.png" alt="Spare Trousers"></td>
+				<td><strong>Spare Trousers</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Ancient_Joker.png" alt="Ancient Comodín"></td>
+				<td><strong>Ancient Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Ramen.png" alt="Ramen"></td>
+				<td><strong>Ramen</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Walkie_Talkie.png" alt="Walkie Talkie"></td>
+				<td><strong>Walkie Talkie</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Seltzer.png" alt="Seltzer"></td>
+				<td><strong>Seltzer</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Castle.png" alt="Castle"></td>
+				<td><strong>Castle</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Smiley_Face.png" alt="Smiley Face"></td>
+				<td><strong>Smiley Face</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Campfire.png" alt="Campfire"></td>
+				<td><strong>Campfire</strong></td>
+				<td></td>
+				<td><span class="money">$9</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Golden_Joker.png" alt="Golden Ticket"></td>
+				<td><strong>Golden Ticket</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Mr._Bones.png" alt="Mr. Bones"></td>
+				<td><strong>Mr. Bones</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Acrobat.png" alt="Acrobat"></td>
+				<td><strong>Acrobat</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Sock_and_Buskin.png" alt="Sock and Buskin"></td>
+				<td><strong>Sock and Buskin</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Swashbuckler.png" alt="Swashbuckler"></td>
+				<td><strong>Swashbuckler</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Troubadour.png" alt="Troubadour"></td>
+				<td><strong>Troubadour</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Certificate.png" alt="Certificate"></td>
+				<td><strong>Certificate</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Smeared_Joker.png" alt="Smeared Comodín"></td>
+				<td><strong>Smeared Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Throwback.png" alt="Throwback"></td>
+				<td><strong>Throwback</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hanging_Chad.png" alt="Hanging Chad"></td>
+				<td><strong>Hanging Chad</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Rough_Gem.png" alt="Rough Gem"></td>
+				<td><strong>Rough Gem</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Bloodstone.png" alt="Bloodstone"></td>
+				<td><strong>Bloodstone</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Arrowhead.png" alt="Arrowhead"></td>
+				<td><strong>Arrowhead</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Onyx_Agate.png" alt="Onyx Agate"></td>
+				<td><strong>Onyx Agate</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Glass_Joker.png" alt="Glass Comodín"></td>
+				<td><strong>Glass Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Showman.png" alt="Showman"></td>
+				<td><strong>Showman</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Flower_Pot.png" alt="Flower Pot"></td>
+				<td><strong>Flower Pot</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Blueprint.png" alt="Blueprint"></td>
+				<td><strong>Blueprint</strong></td>
+				<td></td>
+				<td><span class="money">$10</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Wee_Joker.png" alt="Wee Comodín"></td>
+				<td><strong>Wee Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Merry_Andy.png" alt="Merry Andy"></td>
+				<td><strong>Merry Andy</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Oops!_All_6s.png" alt="Oops! All 6s"></td>
+				<td><strong>Oops! All 6s</strong></td>
+				<td></td>
+				<td><span class="money">$4</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Idol.png" alt="The Idol"></td>
+				<td><strong>The Idol</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Seeing_Double.png" alt="Seeing Double"></td>
+				<td><strong>Seeing Double</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Matador.png" alt="Matador"></td>
+				<td><strong>Matador</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Hit_the_Road.png" alt="Hit the Road"></td>
+				<td><strong>Hit the Road</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Duo.png" alt="The Duo"></td>
+				<td><strong>The Duo</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Trio.png" alt="The Trio"></td>
+				<td><strong>The Trio</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Family.png" alt="The Family"></td>
+				<td><strong>The Family</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Order.png" alt="The Order"></td>
+				<td><strong>The Order</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="The_Tribe.png" alt="The Tribe"></td>
+				<td><strong>The Tribe</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Stuntman.png" alt="Stuntman"></td>
+				<td><strong>Stuntman</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Invisible_Joker.png" alt="Invisible Comodín"></td>
+				<td><strong>Invisible Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Brainstorm.png" alt="Brainstorm"></td>
+				<td><strong>Brainstorm</strong></td>
+				<td></td>
+				<td><span class="money">$10</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Satellite.png" alt="Satellite"></td>
+				<td><strong>Satellite</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Shoot_the_Moon.png" alt="Shoot the Moon"></td>
+				<td><strong>Shoot the Moon</strong></td>
+				<td></td>
+				<td><span class="money">$5</span></td>
+				<td><span class="rarity rarity-common">Común</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Driver's_License.png" alt="Driver's License"></td>
+				<td><strong>Driver's License</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Cartomancer.png" alt="Cartomancer"></td>
+				<td><strong>Cartomancer</strong></td>
+				<td></td>
+				<td><span class="money">$6</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Astronomer.png" alt="Astronomer"></td>
+				<td><strong>Astronomer</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Burnt_Joker.png" alt="Burnt Comodín"></td>
+				<td><strong>Burnt Comodín</strong></td>
+				<td></td>
+				<td><span class="money">$8</span></td>
+				<td><span class="rarity rarity-rare">Rara</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Bootstraps.png" alt="Bootstraps"></td>
+				<td><strong>Bootstraps</strong></td>
+				<td></td>
+				<td><span class="money">$7</span></td>
+				<td><span class="rarity rarity-uncommon">Inusual</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Canio.png" alt="Caino"></td>
+				<td><strong>Caino</strong></td>
+				<td></td>
+				<td><span class="money">$20</span></td>
+				<td><span class="rarity rarity-legendary">Legendaria</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Triboulet.png" alt="Triboulet"></td>
+				<td><strong>Triboulet</strong></td>
+				<td></td>
+				<td><span class="money">$20</span></td>
+				<td><span class="rarity rarity-legendary">Legendaria</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Yorick.png" alt="Yorick"></td>
+				<td><strong>Yorick</strong></td>
+				<td></td>
+				<td><span class="money">$20</span></td>
+				<td><span class="rarity rarity-legendary">Legendaria</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Chicot.png" alt="Chicot"></td>
+				<td><strong>Chicot</strong></td>
+				<td></td>
+				<td><span class="money">$20</span></td>
+				<td><span class="rarity rarity-legendary">Legendaria</span></td>
+				</tr>
+				<tr>
+				<td class="card-img-cell"><img class="card-img" src="Perkeo.png" alt="Perkeo"></td>
+				<td><strong>Perkeo</strong></td>
+				<td></td>
+				<td><span class="money">$20</span></td>
+				<td><span class="rarity rarity-legendary">Legendaria</span></td>
+				</tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 7. CONSUMIBLES -->
+		<section id="consumables">
+			<h2>7. Consumibles</h2>
+			<div class="grid-2">
+			<div class="card">
+				<h4>Tarot Cards (22)</h4>
+				<p>Modifican las cartas del Baraja: cambian palo, rango, añaden enhancements…</p>
+			</div>
+			<div class="card">
+				<h4>Planet Cards (12)</h4>
+				<p>Suben de nivel las Poker Hands (más <span class="chips">Chips</span> y <span class="mult">Mult</span> base).</p>
+			</div>
+			<div class="card">
+				<h4>Spectral Cards (18)</h4>
+				<p>Efectos potentes y a veces arriesgados (sellos, destruir cartas, Comodines legendarios…).</p>
+			</div>
+			<div class="card">
+				<h4>Vales (32)</h4>
+				<p>Mejoras permanentes para toda la run (más hands, discards, descuentos…).</p>
+			</div>
+			</div>
+		</section>
+
+		<!-- 7.1 TAROT -->
+		<section id="tarot">
+			<h2>7.1. Cartas Tarot</h2>
+			<p>Las cartas Tarot modifican tu Baraja o dan recursos. Precio base en la tienda: <span class="money">$3</span>.</p>
+
+			<table class="card-table">
+			<thead>
+				<tr>
+				<th>Imágenes</th>
+				<th>Nombre</th>
+				<th>Precio</th>
+				<th>Rareza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Fool"></td><td><strong>The Fool</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Magician"></td><td><strong>The Magician</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The High Priestess"></td><td><strong>The High Priestess</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Empress"></td><td><strong>The Empress</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Emperor"></td><td><strong>The Emperor</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Hierophant"></td><td><strong>The Hierophant</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Lovers"></td><td><strong>The Lovers</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Chariot"></td><td><strong>The Chariot</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Justice"></td><td><strong>Justice</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Hermit"></td><td><strong>The Hermit</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Wheel of Fortune"></td><td><strong>The Wheel of Fortune</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Strength"></td><td><strong>Strength</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Hanged Man"></td><td><strong>The Hanged Man</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Death"></td><td><strong>Death</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Temperance"></td><td><strong>Temperance</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Devil"></td><td><strong>The Devil</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Tower"></td><td><strong>The Tower</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Star"></td><td><strong>The Star</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Moon"></td><td><strong>The Moon</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Sun"></td><td><strong>The Sun</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Judgement"></td><td><strong>Judgement</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The World"></td><td><strong>The World</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 7.2 PLANET -->
+		<section id="planet">
+			<h2>7.2. Cartas Planeta</h2>
+			<p>Suben de nivel las manos de poker. Precio base en la tienda: <span class="money">$3</span>.</p>
+
+			<table class="card-table">
+			<thead>
+				<tr>
+				<th>Imágenes</th>
+				<th>Nombre</th>
+				<th>Precio</th>
+				<th>Rareza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Pluto"></td><td><strong>Pluto</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Mercury"></td><td><strong>Mercury</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Uranus"></td><td><strong>Uranus</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Venus"></td><td><strong>Venus</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Saturn"></td><td><strong>Saturn</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Jupiter"></td><td><strong>Jupiter</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Earth"></td><td><strong>Earth</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Mars"></td><td><strong>Mars</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Neptune"></td><td><strong>Neptune</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-common">Común</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Planet X"></td><td><strong>Planet X</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-uncommon">Inusual</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Ceres"></td><td><strong>Ceres</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-uncommon">Inusual</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Eris"></td><td><strong>Eris</strong></td><td><span class="money">$3</span></td><td><span class="rarity rarity-uncommon">Inusual</span></td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 7.3 SPECTRAL -->
+		<section id="spectral">
+			<h2>7.3. Cartas Espectrales</h2>
+			<p>Efectos potentes y a menudo arriesgados. Precio base en la tienda: <span class="money">$4</span>.</p>
+
+			<table class="card-table">
+			<thead>
+				<tr>
+				<th>Imágenes</th>
+				<th>Nombre</th>
+				<th>Precio</th>
+				<th>Rareza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Familiar"></td><td><strong>Familiar</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Grim"></td><td><strong>Grim</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Incantation"></td><td><strong>Incantation</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Talisman"></td><td><strong>Talisman</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Aura"></td><td><strong>Aura</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Wraith"></td><td><strong>Wraith</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Sigil"></td><td><strong>Sigil</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Ouija"></td><td><strong>Ouija</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Ectoplasm"></td><td><strong>Ectoplasm</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Immolate"></td><td><strong>Immolate</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Ankh"></td><td><strong>Ankh</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Deja Vu"></td><td><strong>Deja Vu</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Hex"></td><td><strong>Hex</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Trance"></td><td><strong>Trance</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Medium"></td><td><strong>Medium</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Cryptid"></td><td><strong>Cryptid</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-rare">Espectral</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="The Soul"></td><td><strong>The Soul</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-legendary">Legendaria</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Black Hole"></td><td><strong>Black Hole</strong></td><td><span class="money">$4</span></td><td><span class="rarity rarity-legendary">Legendaria</span></td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 7.4 Vales -->
+		<section id="Vales">
+			<h2>7.4. Vales (Vales)</h2>
+			<p>Mejoras permanentes para toda la run. Precio base en la tienda: <span class="money">$10</span>.</p>
+
+			<table class="card-table">
+			<thead>
+				<tr>
+				<th>Imágenes</th>
+				<th>Nombre</th>
+				<th>Precio</th>
+				<th>Rareza</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Overstock"></td><td><strong>Overstock</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Overstock Plus"></td><td><strong>Overstock Plus</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Clearance Sale"></td><td><strong>Clearance Sale</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Liquidation"></td><td><strong>Liquidation</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Hone"></td><td><strong>Hone</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Glow Up"></td><td><strong>Glow Up</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Reroll Surplus"></td><td><strong>Reroll Surplus</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Reroll Glut"></td><td><strong>Reroll Glut</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Crystal Ball"></td><td><strong>Crystal Ball</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Omen Globe"></td><td><strong>Omen Globe</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Telescope"></td><td><strong>Telescope</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Observatory"></td><td><strong>Observatory</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Grabber"></td><td><strong>Grabber</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Nacho Tong"></td><td><strong>Nacho Tong</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Wasteful"></td><td><strong>Wasteful</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Recyclomancy"></td><td><strong>Recyclomancy</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Tarot Merchant"></td><td><strong>Tarot Merchant</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Tarot Tycoon"></td><td><strong>Tarot Tycoon</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Planet Merchant"></td><td><strong>Planet Merchant</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Planet Tycoon"></td><td><strong>Planet Tycoon</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Seed Money"></td><td><strong>Seed Money</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Money Tree"></td><td><strong>Money Tree</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Blank"></td><td><strong>Blank</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Antimatter"></td><td><strong>Antimatter</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Magic Trick"></td><td><strong>Magic Trick</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Illusion"></td><td><strong>Illusion</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Hieroglyph"></td><td><strong>Hieroglyph</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Petroglyph"></td><td><strong>Petroglyph</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Director's Cut"></td><td><strong>Director's Cut</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Retcon"></td><td><strong>Retcon</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Paint Brush"></td><td><strong>Paint Brush</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-common">Base</span></td></tr>
+				<tr><td class="card-img-cell"><img class="card-img" src="" alt="Palette"></td><td><strong>Palette</strong></td><td><span class="money">$10</span></td><td><span class="rarity rarity-uncommon">Mejorado</span></td></tr>
+			</tbody>
+			</table>
+		</section>
+
+		<!-- 8. BLINDS -->
+		<section id="blinds">
+			<h2>8. Blinds y Antes</h2>
+			<p>Cada Ante tiene tres Blinds. El <strong>Boss Blind</strong> tiene un efecto especial.</p>
+			<ul>
+			<li><strong>The Arm</strong> → Baja de nivel la mano que juegues</li>
+			<li><strong>The Plant</strong> → Debuffea todas las Face Cards</li>
+			<li><strong>Verdant Leaf</strong> → Debuffea todas las cartas si tienes Comodines</li>
+			<li><strong>The Eye / The Mouth</strong> → Restricciones sobre qué manos puedes jugar</li>
+			</ul>
+		</section>
+
+		<!-- 9. PALOS -->
+		<section id="palos">
+			<h2>9. Palos y colores</h2>
+			<p>Cada palo tiene su color característico en el juego:</p>
+			<ul>
+			<li><span class="suit-heart">♥ Hearts</span> — rojo (#f83b2f)</li>
+			<li><span class="suit-diamond">♦ Diamonds</span> — naranja (#ffa300)</li>
+			<li><span class="suit-club">♣ Clubs</span> — azul (#009cfd)</li>
+			<li><span class="suit-spade">♠ Spades</span> — gris azulado (#8fb1b8)</li>
+			</ul>
+		</section>
+
+		<!-- 10. CONSEJOS -->
+		<section id="consejos">
+			<h2>10. Consejos rápidos</h2>
+			<div class="card tip">
+			<ul>
+				<li>Prioriza subir de nivel las manos que más uses (Planets).</li>
+				<li>No tengas miedo de vender Comodines mediocres.</li>
+				<li>Los discards son muy valiosos.</li>
+				<li>Las sinergias &gt; Comodines individuales fuertes.</li>
+				<li>Aprende qué hace cada Boss Blind antes de enfrentarlo.</li>
+				<li>En stakes altos, la economía es casi tan importante como el scoring.</li>
+			</ul>
+			</div>
+		</section>
+
+		<br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/o5GqX7N7oZ8?si=GiapJDO7kFkYelUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+		<br>
+		<br>
+		<footer>
+			Guía creada con el estilo de <a href="https://balatrowiki.org" target="_blank">balatrowiki.org</a><br>
+			Colores oficiales de Balatro · © LocalThunk / Playstack
+		</footer>
+
+		</div>
+	</body>
+</html>
